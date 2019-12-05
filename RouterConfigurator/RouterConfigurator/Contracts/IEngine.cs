@@ -1,4 +1,4 @@
-﻿namespace RouterConfigurator.Interfaces
+﻿namespace RouterConfigurator.Contracts
 {
     public interface IEngine
     {

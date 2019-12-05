@@ -9,3 +9,14 @@ C:\Users\roska\Desktop\Coding\Semester Project\Router-Configurator\RouterConfigu
 C:\Users\roska\Desktop\Coding\Semester Project\Router-Configurator\RouterConfigurator\RouterConfigurator\obj\Debug\netcoreapp3.0\RouterConfigurator.AssemblyInfo.cs
 C:\Users\roska\Desktop\Coding\Semester Project\Router-Configurator\RouterConfigurator\RouterConfigurator\obj\Debug\netcoreapp3.0\RouterConfigurator.dll
 C:\Users\roska\Desktop\Coding\Semester Project\Router-Configurator\RouterConfigurator\RouterConfigurator\obj\Debug\netcoreapp3.0\RouterConfigurator.pdb
+C:\Users\Rosen\Desktop\Coding\RouterConfigurator\Router-Configurator\RouterConfigurator\RouterConfigurator\obj\Debug\netcoreapp3.0\RouterConfigurator.csprojAssemblyReference.cache
+C:\Users\Rosen\Desktop\Coding\RouterConfigurator\Router-Configurator\RouterConfigurator\RouterConfigurator\obj\Debug\netcoreapp3.0\RouterConfigurator.AssemblyInfoInputs.cache
+C:\Users\Rosen\Desktop\Coding\RouterConfigurator\Router-Configurator\RouterConfigurator\RouterConfigurator\obj\Debug\netcoreapp3.0\RouterConfigurator.AssemblyInfo.cs
+C:\Users\Rosen\Desktop\Coding\RouterConfigurator\Router-Configurator\RouterConfigurator\RouterConfigurator\obj\Debug\netcoreapp3.0\RouterConfigurator.dll
+C:\Users\Rosen\Desktop\Coding\RouterConfigurator\Router-Configurator\RouterConfigurator\RouterConfigurator\obj\Debug\netcoreapp3.0\RouterConfigurator.pdb
+C:\Users\Rosen\Desktop\Coding\RouterConfigurator\Router-Configurator\RouterConfigurator\RouterConfigurator\bin\Debug\netcoreapp3.0\RouterConfigurator.exe
+C:\Users\Rosen\Desktop\Coding\RouterConfigurator\Router-Configurator\RouterConfigurator\RouterConfigurator\bin\Debug\netcoreapp3.0\RouterConfigurator.deps.json
+C:\Users\Rosen\Desktop\Coding\RouterConfigurator\Router-Configurator\RouterConfigurator\RouterConfigurator\bin\Debug\netcoreapp3.0\RouterConfigurator.runtimeconfig.json
+C:\Users\Rosen\Desktop\Coding\RouterConfigurator\Router-Configurator\RouterConfigurator\RouterConfigurator\bin\Debug\netcoreapp3.0\RouterConfigurator.runtimeconfig.dev.json
+C:\Users\Rosen\Desktop\Coding\RouterConfigurator\Router-Configurator\RouterConfigurator\RouterConfigurator\bin\Debug\netcoreapp3.0\RouterConfigurator.dll
+C:\Users\Rosen\Desktop\Coding\RouterConfigurator\Router-Configurator\RouterConfigurator\RouterConfigurator\bin\Debug\netcoreapp3.0\RouterConfigurator.pdb

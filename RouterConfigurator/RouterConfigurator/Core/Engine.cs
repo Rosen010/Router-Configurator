@@ -1,27 +1,26 @@
 ﻿namespace RouterConfigurator
 {
-    using MinimalisticTelnet;
-    using RouterConfigurator.Interfaces;
+    using RouterConfigurator.Contracts;
     using System;
 
     public class Engine : IEngine
     {
-        private IWriter writer;
-        private IReader reader;
+        private readonly IWriter writer;
+        private readonly IReader reader;
+        private readonly ITelnetConnection tc;
         private string fileText;
 
-        public Engine(IWriter writer, IReader reader)
+        public Engine(IWriter writer, IReader reader, ITelnetConnection tc)
         {
             this.reader = reader;
             this.writer = writer;
+            this.tc = tc;
 
             this.ReadFileText();
         }
         
         public void InitializeConnection()
         {
-            TelnetConnection tc = new TelnetConnection("192.168.100.1", 23);
-
             string s = tc.Login("root", "cisco", 100);
             Console.WriteLine(s);
 

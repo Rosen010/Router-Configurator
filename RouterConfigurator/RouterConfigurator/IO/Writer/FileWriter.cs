@@ -3,7 +3,7 @@
     using System;
     using System.IO;
 
-    using RouterConfigurator.Interfaces;
+    using RouterConfigurator.Contracts;
 
     public class FileWriter : IWriter
     {

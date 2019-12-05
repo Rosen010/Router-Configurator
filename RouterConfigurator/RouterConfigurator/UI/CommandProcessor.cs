@@ -1,6 +1,6 @@
 ﻿namespace RouterConfigurator.UI
 {
-    using RouterConfigurator.Interfaces;
+    using RouterConfigurator.Contracts;
     using System;
 
     public class CommandProcessor : ICommandProcessor

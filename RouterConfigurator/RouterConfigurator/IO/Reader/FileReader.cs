@@ -3,7 +3,7 @@
     using System.IO;
     using System.Text;
 
-    using RouterConfigurator.Interfaces;
+    using RouterConfigurator.Contracts;
 
     public class FileReader : IReader
     {

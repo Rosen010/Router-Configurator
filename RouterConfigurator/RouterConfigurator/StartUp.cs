@@ -1,15 +1,10 @@
 ﻿namespace RouterConfigurator
 {
-    using System;
-    using System.Net;
-    using System.Net.Sockets;
-    using System.Text;
-
     using RouterConfigurator.UI;
     using RouterConfigurator.Reader;
     using RouterConfigurator.Writer;
-    using RouterConfigurator.Interfaces;
-    using MinimalisticTelnet;
+    using RouterConfigurator.Contracts;
+    using RouterConfigurator.Network;
 
     class StartUp
     {
@@ -17,12 +12,13 @@
         {
             IReader reader = new FileReader();
             IWriter writer = new FileWriter();
-            IEngine engine = new Engine(writer, reader);
+            ITelnetConnection connection = new TelnetConnection(Configuration.IpAddress, Configuration.Port);
+            IEngine engine = new Engine(writer, reader, connection);
             ICommandProcessor processor = new CommandProcessor(engine);
+            
+            engine.InitializeConnection();
 
             //processor.GetInput();
-
-            engine.InitializeConnection();
         }
     }
 }

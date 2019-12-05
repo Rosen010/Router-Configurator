@@ -4,12 +4,12 @@
 // http://www.corebvba.be
 
 using System;
-using System.Collections.Generic;
 using System.Text;
-using System.Net.Sockets;
 using System.Net;
+using System.Net.Sockets;
+using RouterConfigurator.Contracts;
 
-namespace MinimalisticTelnet
+namespace RouterConfigurator.Network
 {
     enum Verbs {
         WILL = 251,
@@ -24,11 +24,11 @@ namespace MinimalisticTelnet
         SGA = 3
     }
 
-    class TelnetConnection
+    class TelnetConnection : ITelnetConnection
     {
         TcpClient tcpSocket;
 
-        int TimeOutMs = 100;
+        private int timeOutMs = 100;
 
         public TelnetConnection(string ipAddress, int port)
         {
@@ -40,20 +40,27 @@ namespace MinimalisticTelnet
 
         public string Login(string Username,string Password,int LoginTimeOutMs)
         {
-            int oldTimeOutMs = TimeOutMs;
-            TimeOutMs = LoginTimeOutMs;
+            int oldTimeOutMs = this.timeOutMs;
+            this.timeOutMs = LoginTimeOutMs;
             string s = Read();
-            if (!s.TrimEnd().EndsWith(":"))
-               throw new Exception("Failed to connect : no login prompt");
-            WriteLine(Username);
 
-            s += Read();
             if (!s.TrimEnd().EndsWith(":"))
+            {
+                throw new Exception("Failed to connect : no login prompt");
+            }
+               
+            WriteLine(Username);
+            s += Read();
+
+            if (!s.TrimEnd().EndsWith(":"))
+            {
                 throw new Exception("Failed to connect : no password prompt");
+            }
+                
             WriteLine(Password);
 
             s += Read();
-            TimeOutMs = oldTimeOutMs;
+            this.timeOutMs = oldTimeOutMs;
             return s;
         }
 
@@ -64,20 +71,30 @@ namespace MinimalisticTelnet
 
         public void Write(string cmd)
         {
-            if (!tcpSocket.Connected) return;
+            if (!tcpSocket.Connected) 
+            { 
+                return; 
+            }
+
             byte[] buf = System.Text.ASCIIEncoding.ASCII.GetBytes(cmd.Replace("\0xFF","\0xFF\0xFF"));
             tcpSocket.GetStream().Write(buf, 0, buf.Length);
         }
 
         public string Read()
         {
-            if (!tcpSocket.Connected) return null;
-            StringBuilder sb=new StringBuilder();
+            if (!tcpSocket.Connected) 
+            { 
+                return null; 
+            }
+
+            StringBuilder sb = new StringBuilder();
+
             do
             {
                 ParseTelnet(sb);
-                System.Threading.Thread.Sleep(TimeOutMs);
+                System.Threading.Thread.Sleep(timeOutMs);
             } while (tcpSocket.Available > 0);
+
             return sb.ToString();
         }
 
@@ -86,19 +103,24 @@ namespace MinimalisticTelnet
             get { return tcpSocket.Connected; }
         }
 
-        void ParseTelnet(StringBuilder sb)
+        public void ParseTelnet(StringBuilder sb)
         {
             while (tcpSocket.Available > 0)
             {
                 int input = tcpSocket.GetStream().ReadByte();
                 switch (input)
                 {
-                    case -1 :
+                    case -1:
                         break;
                     case (int)Verbs.IAC:
                         // interpret as command
                         int inputverb = tcpSocket.GetStream().ReadByte();
-                        if (inputverb == -1) break;
+
+                        if (inputverb == -1) 
+                        { 
+                            break; 
+                        }
+
                         switch (inputverb)
                         {
                             case (int)Verbs.IAC: 
@@ -110,13 +132,25 @@ namespace MinimalisticTelnet
                             case (int)Verbs.WILL:
                             case (int)Verbs.WONT:
                                 // reply to all commands with "WONT", unless it is SGA (suppres go ahead)
+
                                 int inputoption = tcpSocket.GetStream().ReadByte();
-                                if (inputoption == -1) break;
+                                if (inputoption == -1)
+                                {
+                                    break;
+                                }
+
                                 tcpSocket.GetStream().WriteByte((byte)Verbs.IAC);
-                                if (inputoption == (int)Options.SGA )
-                                    tcpSocket.GetStream().WriteByte(inputverb == (int)Verbs.DO ? (byte)Verbs.WILL:(byte)Verbs.DO); 
+
+                                if (inputoption == (int)Options.SGA)
+                                {
+                                    tcpSocket.GetStream().WriteByte(inputverb == (int)Verbs.DO ? (byte)Verbs.WILL : (byte)Verbs.DO);
+                                }
+
                                 else
-                                    tcpSocket.GetStream().WriteByte(inputverb == (int)Verbs.DO ? (byte)Verbs.WONT : (byte)Verbs.DONT); 
+                                {
+                                    tcpSocket.GetStream().WriteByte(inputverb == (int)Verbs.DO ? (byte)Verbs.WONT : (byte)Verbs.DONT);
+                                }
+
                                 tcpSocket.GetStream().WriteByte((byte)inputoption);
                                 break;
                             default:

@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\roska\\.nuget\\packages\\": {},
+    "C:\\Users\\Rosen\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\roska\\Desktop\\Coding\\Semester Project\\Router-Configurator\\RouterConfigurator\\RouterConfigurator\\RouterConfigurator.csproj",
+      "projectUniqueName": "C:\\Users\\Rosen\\Desktop\\Coding\\RouterConfigurator\\Router-Configurator\\RouterConfigurator\\RouterConfigurator\\RouterConfigurator.csproj",
       "projectName": "RouterConfigurator",
-      "projectPath": "C:\\Users\\roska\\Desktop\\Coding\\Semester Project\\Router-Configurator\\RouterConfigurator\\RouterConfigurator\\RouterConfigurator.csproj",
-      "packagesPath": "C:\\Users\\roska\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\roska\\Desktop\\Coding\\Semester Project\\Router-Configurator\\RouterConfigurator\\RouterConfigurator\\obj\\",
+      "projectPath": "C:\\Users\\Rosen\\Desktop\\Coding\\RouterConfigurator\\Router-Configurator\\RouterConfigurator\\RouterConfigurator\\RouterConfigurator.csproj",
+      "packagesPath": "C:\\Users\\Rosen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Rosen\\Desktop\\Coding\\RouterConfigurator\\Router-Configurator\\RouterConfigurator\\RouterConfigurator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\roska\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Rosen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
