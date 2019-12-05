@@ -3,7 +3,6 @@
     using RouterConfigurator.Interfaces;
     using System;
 
-    //the class is a bit leshta
     public class CommandProcessor : ICommandProcessor
     {
         private IEngine engine;
