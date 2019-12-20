@@ -8,23 +8,36 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\roska\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+=======
+    "C:\\Users\\daxte\\.nuget\\packages\\": {}
+>>>>>>> 63dcd031fa1f36f1206812da4a6773610c38b233
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\roska\\Desktop\\Coding\\Semester Project\\Router-Configurator\\RouterConfigurator\\RouterConfigurator\\RouterConfigurator.csproj",
       "projectName": "RouterConfigurator",
       "projectPath": "C:\\Users\\roska\\Desktop\\Coding\\Semester Project\\Router-Configurator\\RouterConfigurator\\RouterConfigurator\\RouterConfigurator.csproj",
       "packagesPath": "C:\\Users\\roska\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\roska\\Desktop\\Coding\\Semester Project\\Router-Configurator\\RouterConfigurator\\RouterConfigurator\\obj\\",
+=======
+      "projectUniqueName": "D:\\Github Repos\\Router-Configurator\\Router-Configurator\\RouterConfigurator\\RouterConfigurator\\RouterConfigurator.csproj",
+      "projectName": "RouterConfigurator",
+      "projectPath": "D:\\Github Repos\\Router-Configurator\\Router-Configurator\\RouterConfigurator\\RouterConfigurator\\RouterConfigurator.csproj",
+      "packagesPath": "C:\\Users\\daxte\\.nuget\\packages\\",
+      "outputPath": "D:\\Github Repos\\Router-Configurator\\Router-Configurator\\RouterConfigurator\\RouterConfigurator\\obj\\",
+>>>>>>> 63dcd031fa1f36f1206812da4a6773610c38b233
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\roska\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\daxte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 63dcd031fa1f36f1206812da4a6773610c38b233
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

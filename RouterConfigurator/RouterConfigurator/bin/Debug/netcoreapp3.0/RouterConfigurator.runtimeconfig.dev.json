@@ -1,9 +1,14 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
+<<<<<<< HEAD
       "C:\\Users\\roska\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\roska\\.nuget\\packages",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+=======
+      "C:\\Users\\daxte\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\daxte\\.nuget\\packages"
+>>>>>>> 63dcd031fa1f36f1206812da4a6773610c38b233
     ]
   }
 }

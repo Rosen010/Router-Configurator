@@ -11,7 +11,8 @@ using RouterConfigurator.Contracts;
 
 namespace RouterConfigurator.Network
 {
-    enum Verbs {
+    enum Verbs
+    {
         WILL = 251,
         WONT = 252,
         DO = 253,
@@ -38,7 +39,7 @@ namespace RouterConfigurator.Network
 
         }
 
-        public string Login(string Username,string Password,int LoginTimeOutMs)
+        public string Login(string Username, string Password, int LoginTimeOutMs)
         {
             int oldTimeOutMs = this.timeOutMs;
             this.timeOutMs = LoginTimeOutMs;
@@ -48,7 +49,7 @@ namespace RouterConfigurator.Network
             {
                 throw new Exception("Failed to connect : no login prompt");
             }
-               
+
             WriteLine(Username);
             s += Read();
 
@@ -56,7 +57,7 @@ namespace RouterConfigurator.Network
             {
                 throw new Exception("Failed to connect : no password prompt");
             }
-                
+
             WriteLine(Password);
 
             s += Read();
@@ -66,25 +67,25 @@ namespace RouterConfigurator.Network
 
         public void WriteLine(string cmd)
         {
-            Write(cmd + "\n");
+            Write(cmd + Environment.NewLine); // it was with \n before
         }
 
         public void Write(string cmd)
         {
-            if (!tcpSocket.Connected) 
-            { 
-                return; 
+            if (!tcpSocket.Connected)
+            {
+                return;
             }
 
-            byte[] buf = System.Text.ASCIIEncoding.ASCII.GetBytes(cmd.Replace("\0xFF","\0xFF\0xFF"));
+            byte[] buf = System.Text.ASCIIEncoding.ASCII.GetBytes(cmd.Replace("\0xFF", "\0xFF\0xFF"));
             tcpSocket.GetStream().Write(buf, 0, buf.Length);
         }
 
         public string Read()
         {
-            if (!tcpSocket.Connected) 
-            { 
-                return null; 
+            if (!tcpSocket.Connected)
+            {
+                return null;
             }
 
             StringBuilder sb = new StringBuilder();
@@ -116,18 +117,18 @@ namespace RouterConfigurator.Network
                         // interpret as command
                         int inputverb = tcpSocket.GetStream().ReadByte();
 
-                        if (inputverb == -1) 
-                        { 
-                            break; 
+                        if (inputverb == -1)
+                        {
+                            break;
                         }
 
                         switch (inputverb)
                         {
-                            case (int)Verbs.IAC: 
+                            case (int)Verbs.IAC:
                                 //literal IAC = 255 escaped, so append char 255 to string
                                 sb.Append(inputverb);
                                 break;
-                            case (int)Verbs.DO: 
+                            case (int)Verbs.DO:
                             case (int)Verbs.DONT:
                             case (int)Verbs.WILL:
                             case (int)Verbs.WONT:
@@ -158,7 +159,7 @@ namespace RouterConfigurator.Network
                         }
                         break;
                     default:
-                        sb.Append( (char)input );
+                        sb.Append((char)input);
                         break;
                 }
             }
