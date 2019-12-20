@@ -1,0 +1,42 @@
+Router# show startup-config
+Using 5057 out of 32768 bytes
+!
+version 10.3
+!
+enable-password xxxx
+service pad
+!
+boot system dross-system 172.16.13.111
+boot system dross-system 172.16.1.111
+!
+exception dump 172.16.13.111
+!
+no ip ipname-lookup
+!
+decnet routing 13.1
+decnet node-type area
+decnet max-address 1023
+!
+interface Ethernet 0
+ip address 172.16.1.1 255.255.255.0
+ip helper-address 172.30.1.0
+ip accounting
+ip gdp
+decnet cost 3
+!
+ip domain-name CISCO.COM
+ip name-server 255.255.255.255
+!
+end
+The following is partial sample output from the show startup-config command when the configuration file has been compressed:
+
+Router# show startup-config
+Using 21542 out of 65536 bytes, uncompressed size = 142085 bytes
+!
+version 9.22 
+service compress-config
+!
+hostname rose
+!
+boot system flash gs7-k.sthormod_clean
+boot system rom

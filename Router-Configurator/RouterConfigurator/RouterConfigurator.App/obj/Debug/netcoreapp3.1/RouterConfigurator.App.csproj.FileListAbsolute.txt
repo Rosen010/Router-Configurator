@@ -1,0 +1,11 @@
+C:\Users\Rosen\Desktop\Coding\Router-Configurator\Router-Configurator-c918039403805980e7d0fec16aaef1df110599f7\RouterConfigurator\RouterConfigurator.App\bin\Debug\netcoreapp3.1\RouterConfigurator.App.exe
+C:\Users\Rosen\Desktop\Coding\Router-Configurator\Router-Configurator-c918039403805980e7d0fec16aaef1df110599f7\RouterConfigurator\RouterConfigurator.App\bin\Debug\netcoreapp3.1\RouterConfigurator.App.deps.json
+C:\Users\Rosen\Desktop\Coding\Router-Configurator\Router-Configurator-c918039403805980e7d0fec16aaef1df110599f7\RouterConfigurator\RouterConfigurator.App\bin\Debug\netcoreapp3.1\RouterConfigurator.App.runtimeconfig.json
+C:\Users\Rosen\Desktop\Coding\Router-Configurator\Router-Configurator-c918039403805980e7d0fec16aaef1df110599f7\RouterConfigurator\RouterConfigurator.App\bin\Debug\netcoreapp3.1\RouterConfigurator.App.runtimeconfig.dev.json
+C:\Users\Rosen\Desktop\Coding\Router-Configurator\Router-Configurator-c918039403805980e7d0fec16aaef1df110599f7\RouterConfigurator\RouterConfigurator.App\bin\Debug\netcoreapp3.1\RouterConfigurator.App.dll
+C:\Users\Rosen\Desktop\Coding\Router-Configurator\Router-Configurator-c918039403805980e7d0fec16aaef1df110599f7\RouterConfigurator\RouterConfigurator.App\bin\Debug\netcoreapp3.1\RouterConfigurator.App.pdb
+C:\Users\Rosen\Desktop\Coding\Router-Configurator\Router-Configurator-c918039403805980e7d0fec16aaef1df110599f7\RouterConfigurator\RouterConfigurator.App\obj\Debug\netcoreapp3.1\RouterConfigurator.App.csprojAssemblyReference.cache
+C:\Users\Rosen\Desktop\Coding\Router-Configurator\Router-Configurator-c918039403805980e7d0fec16aaef1df110599f7\RouterConfigurator\RouterConfigurator.App\obj\Debug\netcoreapp3.1\RouterConfigurator.App.AssemblyInfoInputs.cache
+C:\Users\Rosen\Desktop\Coding\Router-Configurator\Router-Configurator-c918039403805980e7d0fec16aaef1df110599f7\RouterConfigurator\RouterConfigurator.App\obj\Debug\netcoreapp3.1\RouterConfigurator.App.AssemblyInfo.cs
+C:\Users\Rosen\Desktop\Coding\Router-Configurator\Router-Configurator-c918039403805980e7d0fec16aaef1df110599f7\RouterConfigurator\RouterConfigurator.App\obj\Debug\netcoreapp3.1\RouterConfigurator.App.dll
+C:\Users\Rosen\Desktop\Coding\Router-Configurator\Router-Configurator-c918039403805980e7d0fec16aaef1df110599f7\RouterConfigurator\RouterConfigurator.App\obj\Debug\netcoreapp3.1\RouterConfigurator.App.pdb
