@@ -12,11 +12,11 @@
 
         public Engine(IWriter writer, IReader reader, ITelnetConnection tc)
         {
-            this.reader = reader;
-            this.writer = writer;
+            //this.reader = reader;
+            //this.writer = writer;
             this.tc = tc;
 
-            this.ReadFileText();
+            //this.ReadFileText();
         }
         
         public void InitializeConnection()

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\roska\\Desktop\\Coding\\Semester Project\\Router-Configurator\\RouterConfigurator\\RouterConfigurator\\RouterConfigurator.csproj",
-      "projectName": "RouterConfigurator",
-      "projectPath": "C:\\Users\\roska\\Desktop\\Coding\\Semester Project\\Router-Configurator\\RouterConfigurator\\RouterConfigurator\\RouterConfigurator.csproj",
+      "projectUniqueName": "C:\\Users\\roska\\Desktop\\Coding\\Semester Project\\Router-Configurator\\RouterConfigurator\\Launcher\\Launcher.csproj",
+      "projectName": "Launcher",
+      "projectPath": "C:\\Users\\roska\\Desktop\\Coding\\Semester Project\\Router-Configurator\\RouterConfigurator\\Launcher\\Launcher.csproj",
       "packagesPath": "C:\\Users\\roska\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\roska\\Desktop\\Coding\\Semester Project\\Router-Configurator\\RouterConfigurator\\RouterConfigurator\\obj\\",
+      "outputPath": "C:\\Users\\roska\\Desktop\\Coding\\Semester Project\\Router-Configurator\\RouterConfigurator\\Launcher\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

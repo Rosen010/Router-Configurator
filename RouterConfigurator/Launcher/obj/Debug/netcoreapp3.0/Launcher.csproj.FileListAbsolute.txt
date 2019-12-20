@@ -1,0 +1,11 @@
+C:\Users\roska\Desktop\Coding\Semester Project\Router-Configurator\RouterConfigurator\Launcher\bin\Debug\netcoreapp3.0\Launcher.exe
+C:\Users\roska\Desktop\Coding\Semester Project\Router-Configurator\RouterConfigurator\Launcher\bin\Debug\netcoreapp3.0\Launcher.deps.json
+C:\Users\roska\Desktop\Coding\Semester Project\Router-Configurator\RouterConfigurator\Launcher\bin\Debug\netcoreapp3.0\Launcher.runtimeconfig.json
+C:\Users\roska\Desktop\Coding\Semester Project\Router-Configurator\RouterConfigurator\Launcher\bin\Debug\netcoreapp3.0\Launcher.runtimeconfig.dev.json
+C:\Users\roska\Desktop\Coding\Semester Project\Router-Configurator\RouterConfigurator\Launcher\bin\Debug\netcoreapp3.0\Launcher.dll
+C:\Users\roska\Desktop\Coding\Semester Project\Router-Configurator\RouterConfigurator\Launcher\bin\Debug\netcoreapp3.0\Launcher.pdb
+C:\Users\roska\Desktop\Coding\Semester Project\Router-Configurator\RouterConfigurator\Launcher\obj\Debug\netcoreapp3.0\Launcher.csprojAssemblyReference.cache
+C:\Users\roska\Desktop\Coding\Semester Project\Router-Configurator\RouterConfigurator\Launcher\obj\Debug\netcoreapp3.0\Launcher.AssemblyInfoInputs.cache
+C:\Users\roska\Desktop\Coding\Semester Project\Router-Configurator\RouterConfigurator\Launcher\obj\Debug\netcoreapp3.0\Launcher.AssemblyInfo.cs
+C:\Users\roska\Desktop\Coding\Semester Project\Router-Configurator\RouterConfigurator\Launcher\obj\Debug\netcoreapp3.0\Launcher.dll
+C:\Users\roska\Desktop\Coding\Semester Project\Router-Configurator\RouterConfigurator\Launcher\obj\Debug\netcoreapp3.0\Launcher.pdb

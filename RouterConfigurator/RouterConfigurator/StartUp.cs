@@ -14,7 +14,7 @@
             IWriter writer = new FileWriter();
             ITelnetConnection connection = new TelnetConnection(Configuration.IpAddress, Configuration.Port);
             IEngine engine = new Engine(writer, reader, connection);
-            ICommandProcessor processor = new CommandProcessor(engine);
+            //ICommandProcessor processor = new CommandProcessor(engine);
             
             engine.InitializeConnection();
 
