@@ -1,37 +1,41 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Rosen\\.nuget\\packages\\": {}
+    "C:\\Users\\daxte\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rosen\\Desktop\\Coding\\Router-Configurator\\Router-Configurator-c918039403805980e7d0fec16aaef1df110599f7\\RouterConfigurator\\RouterConfigurator.App\\RouterConfigurator.App.csproj",
+      "projectUniqueName": "C:\\Users\\daxte\\Desktop\\Projects I fork\\Router\\Router-Configurator-master\\Router-Configurator\\RouterConfigurator\\RouterConfigurator.App\\RouterConfigurator.App.csproj",
       "projectName": "RouterConfigurator.App",
-      "projectPath": "C:\\Users\\Rosen\\Desktop\\Coding\\Router-Configurator\\Router-Configurator-c918039403805980e7d0fec16aaef1df110599f7\\RouterConfigurator\\RouterConfigurator.App\\RouterConfigurator.App.csproj",
-      "packagesPath": "C:\\Users\\Rosen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rosen\\Desktop\\Coding\\Router-Configurator\\Router-Configurator-c918039403805980e7d0fec16aaef1df110599f7\\RouterConfigurator\\RouterConfigurator.App\\obj\\",
+      "projectPath": "C:\\Users\\daxte\\Desktop\\Projects I fork\\Router\\Router-Configurator-master\\Router-Configurator\\RouterConfigurator\\RouterConfigurator.App\\RouterConfigurator.App.csproj",
+      "packagesPath": "C:\\Users\\daxte\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\daxte\\Desktop\\Projects I fork\\Router\\Router-Configurator-master\\Router-Configurator\\RouterConfigurator\\RouterConfigurator.App\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Rosen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\daxte\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "netcoreapp3.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netcoreapp3.0": {
           "projectReferences": {}
         }
       },
@@ -42,7 +46,7 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
+      "netcoreapp3.0": {
         "imports": [
           "net461",
           "net462",
@@ -58,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

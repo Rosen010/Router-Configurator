@@ -1,0 +1,10 @@
+C:\Users\daxte\Desktop\Projects I fork\Router\Router-Configurator-master\Router-Configurator\RouterConfigurator\RouterConfigurator.App\bin\Debug\netcoreapp3.0\RouterConfigurator.App.exe
+C:\Users\daxte\Desktop\Projects I fork\Router\Router-Configurator-master\Router-Configurator\RouterConfigurator\RouterConfigurator.App\bin\Debug\netcoreapp3.0\RouterConfigurator.App.deps.json
+C:\Users\daxte\Desktop\Projects I fork\Router\Router-Configurator-master\Router-Configurator\RouterConfigurator\RouterConfigurator.App\bin\Debug\netcoreapp3.0\RouterConfigurator.App.runtimeconfig.json
+C:\Users\daxte\Desktop\Projects I fork\Router\Router-Configurator-master\Router-Configurator\RouterConfigurator\RouterConfigurator.App\bin\Debug\netcoreapp3.0\RouterConfigurator.App.runtimeconfig.dev.json
+C:\Users\daxte\Desktop\Projects I fork\Router\Router-Configurator-master\Router-Configurator\RouterConfigurator\RouterConfigurator.App\bin\Debug\netcoreapp3.0\RouterConfigurator.App.dll
+C:\Users\daxte\Desktop\Projects I fork\Router\Router-Configurator-master\Router-Configurator\RouterConfigurator\RouterConfigurator.App\bin\Debug\netcoreapp3.0\RouterConfigurator.App.pdb
+C:\Users\daxte\Desktop\Projects I fork\Router\Router-Configurator-master\Router-Configurator\RouterConfigurator\RouterConfigurator.App\obj\Debug\netcoreapp3.0\RouterConfigurator.App.AssemblyInfoInputs.cache
+C:\Users\daxte\Desktop\Projects I fork\Router\Router-Configurator-master\Router-Configurator\RouterConfigurator\RouterConfigurator.App\obj\Debug\netcoreapp3.0\RouterConfigurator.App.AssemblyInfo.cs
+C:\Users\daxte\Desktop\Projects I fork\Router\Router-Configurator-master\Router-Configurator\RouterConfigurator\RouterConfigurator.App\obj\Debug\netcoreapp3.0\RouterConfigurator.App.dll
+C:\Users\daxte\Desktop\Projects I fork\Router\Router-Configurator-master\Router-Configurator\RouterConfigurator\RouterConfigurator.App\obj\Debug\netcoreapp3.0\RouterConfigurator.App.pdb

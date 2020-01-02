@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rosen\\Desktop\\Coding\\Router-Configurator\\Router-Configurator-c918039403805980e7d0fec16aaef1df110599f7\\RouterConfigurator\\RouterConfigurator\\RouterConfigurator.csproj": {}
+    "C:\\Users\\daxte\\Desktop\\Projects I fork\\Router\\Router-Configurator-master\\Router-Configurator\\RouterConfigurator\\RouterConfigurator\\RouterConfigurator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rosen\\Desktop\\Coding\\Router-Configurator\\Router-Configurator-c918039403805980e7d0fec16aaef1df110599f7\\RouterConfigurator\\RouterConfigurator\\RouterConfigurator.csproj": {
+    "C:\\Users\\daxte\\Desktop\\Projects I fork\\Router\\Router-Configurator-master\\Router-Configurator\\RouterConfigurator\\RouterConfigurator\\RouterConfigurator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rosen\\Desktop\\Coding\\Router-Configurator\\Router-Configurator-c918039403805980e7d0fec16aaef1df110599f7\\RouterConfigurator\\RouterConfigurator\\RouterConfigurator.csproj",
+        "projectUniqueName": "C:\\Users\\daxte\\Desktop\\Projects I fork\\Router\\Router-Configurator-master\\Router-Configurator\\RouterConfigurator\\RouterConfigurator\\RouterConfigurator.csproj",
         "projectName": "RouterConfigurator",
-        "projectPath": "C:\\Users\\Rosen\\Desktop\\Coding\\Router-Configurator\\Router-Configurator-c918039403805980e7d0fec16aaef1df110599f7\\RouterConfigurator\\RouterConfigurator\\RouterConfigurator.csproj",
-        "packagesPath": "C:\\Users\\Rosen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rosen\\Desktop\\Coding\\Router-Configurator\\Router-Configurator-c918039403805980e7d0fec16aaef1df110599f7\\RouterConfigurator\\RouterConfigurator\\obj\\",
+        "projectPath": "C:\\Users\\daxte\\Desktop\\Projects I fork\\Router\\Router-Configurator-master\\Router-Configurator\\RouterConfigurator\\RouterConfigurator\\RouterConfigurator.csproj",
+        "packagesPath": "C:\\Users\\daxte\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\daxte\\Desktop\\Projects I fork\\Router\\Router-Configurator-master\\Router-Configurator\\RouterConfigurator\\RouterConfigurator\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Rosen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\daxte\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -47,22 +50,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.0.1, 3.0.1]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
